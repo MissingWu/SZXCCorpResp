@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{59296282-8268-412B-89D3-1A9B10053DD9}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>SZXCArimh</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+    <OutputPath>..\..\XC_exe\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>SZXCArimh</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Drawing" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HalconDotNet\HalconAPI.cs" />
+    <Compile Include="HalconDotNet\HalconException.cs" />
+    <Compile Include="HalconDotNet\HBarCode.cs" />
+    <Compile Include="HalconDotNet\HBarrier.cs" />
+    <Compile Include="HalconDotNet\HBeadInspectionModel.cs" />
+    <Compile Include="HalconDotNet\HBgEsti.cs" />
+    <Compile Include="HalconDotNet\HCalibData.cs" />
+    <Compile Include="HalconDotNet\HCameraSetupModel.cs" />
+    <Compile Include="HalconDotNet\HCamPar.cs" />
+    <Compile Include="HalconDotNet\HClassBox.cs" />
+    <Compile Include="HalconDotNet\HClassGmm.cs" />
+    <Compile Include="HalconDotNet\HClassKnn.cs" />
+    <Compile Include="HalconDotNet\HClassLUT.cs" />
+    <Compile Include="HalconDotNet\HClassMlp.cs" />
+    <Compile Include="HalconDotNet\HClassSvm.cs" />
+    <Compile Include="HalconDotNet\HClassTrainData.cs" />
+    <Compile Include="HalconDotNet\HColorTransLUT.cs" />
+    <Compile Include="HalconDotNet\HComponentModel.cs" />
+    <Compile Include="HalconDotNet\HComponentTraining.cs" />
+    <Compile Include="HalconDotNet\HComputeDevice.cs" />
+    <Compile Include="HalconDotNet\HCondition.cs" />
+    <Compile Include="HalconDotNet\HData.cs" />
+    <Compile Include="HalconDotNet\HDataCode2D.cs" />
+    <Compile Include="HalconDotNet\HDeformableModel.cs" />
+    <Compile Include="HalconDotNet\HDeformableSurfaceMatchingResult.cs" />
+    <Compile Include="HalconDotNet\HDeformableSurfaceModel.cs" />
+    <Compile Include="HalconDotNet\HDescriptorModel.cs" />
+    <Compile Include="HalconDotNet\HDevDisposeHelper.cs" />
+    <Compile Include="HalconDotNet\HDevInputParam.cs" />
+    <Compile Include="HalconDotNet\HDevInputParamObject.cs" />
+    <Compile Include="HalconDotNet\HDevInputParamTuple.cs" />
+    <Compile Include="HalconDotNet\HDevInputParamVector.cs" />
+    <Compile Include="HalconDotNet\HDevOutputParam.cs" />
+    <Compile Include="HalconDotNet\HDevOutputParamObject.cs" />
+    <Compile Include="HalconDotNet\HDevOutputParamTuple.cs" />
+    <Compile Include="HalconDotNet\HDevOutputParamVector.cs" />
+    <Compile Include="HalconDotNet\HDevParamGuard.cs" />
+    <Compile Include="HalconDotNet\HDevThread.cs" />
+    <Compile Include="HalconDotNet\HDevThreadContext.cs" />
+    <Compile Include="HalconDotNet\HDevWindowStack.cs" />
+    <Compile Include="HalconDotNet\HDict.cs" />
+    <Compile Include="HalconDotNet\HDisplayObjectWPF.cs" />
+    <Compile Include="HalconDotNet\HDlClassifier.cs" />
+    <Compile Include="HalconDotNet\HDlClassifierResult.cs" />
+    <Compile Include="HalconDotNet\HDlClassifierTrainResult.cs" />
+    <Compile Include="HalconDotNet\HDlModel.cs" />
+    <Compile Include="HalconDotNet\HDrawingObject.cs" />
+    <Compile Include="HalconDotNet\HDualQuaternion.cs" />
+    <Compile Include="HalconDotNet\HErrorDef.cs" />
+    <Compile Include="HalconDotNet\HEvent.cs" />
+    <Compile Include="HalconDotNet\HFeatureSet.cs" />
+    <Compile Include="HalconDotNet\HFile.cs" />
+    <Compile Include="HalconDotNet\HFramegrabber.cs" />
+    <Compile Include="HalconDotNet\HFunction1D.cs" />
+    <Compile Include="HalconDotNet\HGnuplot.cs" />
+    <Compile Include="HalconDotNet\HHandle.cs" />
+    <Compile Include="HalconDotNet\HHandleBase.cs" />
+    <Compile Include="HalconDotNet\HHomMat2D.cs" />
+    <Compile Include="HalconDotNet\HHomMat3D.cs" />
+    <Compile Include="HalconDotNet\HIconicDisplayObjectWPF.cs" />
+    <Compile Include="HalconDotNet\HImage.cs" />
+    <Compile Include="HalconDotNet\HInfo.cs" />
+    <Compile Include="HalconDotNet\HInitWindowEventHandler.cs" />
+    <Compile Include="HalconDotNet\HInitWindowEventHandlerWPF.cs" />
+    <Compile Include="HalconDotNet\HIOChannel.cs" />
+    <Compile Include="HalconDotNet\HIODevice.cs" />
+    <Compile Include="HalconDotNet\HLexicon.cs" />
+    <Compile Include="HalconDotNet\HLineStyleWPF.cs" />
+    <Compile Include="HalconDotNet\HLineStyleWPFConverter.cs" />
+    <Compile Include="HalconDotNet\HMatrix.cs" />
+    <Compile Include="HalconDotNet\HMeasure.cs" />
+    <Compile Include="HalconDotNet\HMessage.cs" />
+    <Compile Include="HalconDotNet\HMessageDisplayObjectWPF.cs" />
+    <Compile Include="HalconDotNet\HMessageQueue.cs" />
+    <Compile Include="HalconDotNet\HMetrologyModel.cs" />
+    <Compile Include="HalconDotNet\HMisc.cs" />
+    <Compile Include="HalconDotNet\HMouseEventArgs.cs" />
+    <Compile Include="HalconDotNet\HMouseEventArgsWPF.cs" />
+    <Compile Include="HalconDotNet\HMouseEventHandler.cs" />
+    <Compile Include="HalconDotNet\HMouseEventHandlerWPF.cs" />
+    <Compile Include="HalconDotNet\HMutex.cs" />
+    <Compile Include="HalconDotNet\HNCCModel.cs" />
+    <Compile Include="HalconDotNet\HObject.cs" />
+    <Compile Include="HalconDotNet\HObjectBase.cs" />
+    <Compile Include="HalconDotNet\HObjectModel3D.cs" />
+    <Compile Include="HalconDotNet\HObjectVector.cs" />
+    <Compile Include="HalconDotNet\HOCRBox.cs" />
+    <Compile Include="HalconDotNet\HOCRCnn.cs" />
+    <Compile Include="HalconDotNet\HOCRKnn.cs" />
+    <Compile Include="HalconDotNet\HOCRMlp.cs" />
+    <Compile Include="HalconDotNet\HOCRSvm.cs" />
+    <Compile Include="HalconDotNet\HOCV.cs" />
+    <Compile Include="HalconDotNet\HOperatorException.cs" />
+    <Compile Include="HalconDotNet\HOperatorSet.cs" />
+    <Compile Include="HalconDotNet\HPose.cs" />
+    <Compile Include="HalconDotNet\HProcIDs.cs" />
+    <Compile Include="HalconDotNet\HQuaternion.cs" />
+    <Compile Include="HalconDotNet\HRegion.cs" />
+    <Compile Include="HalconDotNet\HSampleIdentifier.cs" />
+    <Compile Include="HalconDotNet\HScatteredDataInterpolator.cs" />
+    <Compile Include="HalconDotNet\HScene3D.cs" />
+    <Compile Include="HalconDotNet\HSerial.cs" />
+    <Compile Include="HalconDotNet\HSerializedItem.cs" />
+    <Compile Include="HalconDotNet\HShapeModel.cs" />
+    <Compile Include="HalconDotNet\HShapeModel3D.cs" />
+    <Compile Include="HalconDotNet\HSheetOfLightModel.cs" />
+    <Compile Include="HalconDotNet\HSmartWindowControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HalconDotNet\HSmartWindowControlWPF.cs" />
+    <Compile Include="HalconDotNet\HSocket.cs" />
+    <Compile Include="HalconDotNet\HStereoModel.cs" />
+    <Compile Include="HalconDotNet\HStructuredLightModel.cs" />
+    <Compile Include="HalconDotNet\HSurfaceMatchingResult.cs" />
+    <Compile Include="HalconDotNet\HSurfaceModel.cs" />
+    <Compile Include="HalconDotNet\HSystem.cs" />
+    <Compile Include="HalconDotNet\HTemplate.cs" />
+    <Compile Include="HalconDotNet\HTextModel.cs" />
+    <Compile Include="HalconDotNet\HTextResult.cs" />
+    <Compile Include="HalconDotNet\HTextureInspectionModel.cs" />
+    <Compile Include="HalconDotNet\HTextureInspectionResult.cs" />
+    <Compile Include="HalconDotNet\HTuple.cs" />
+    <Compile Include="HalconDotNet\HTupleAccessException.cs" />
+    <Compile Include="HalconDotNet\HTupleDouble.cs" />
+    <Compile Include="HalconDotNet\HTupleElements.cs" />
+    <Compile Include="HalconDotNet\HTupleElementsDouble.cs" />
+    <Compile Include="HalconDotNet\HTupleElementsHandle.cs" />
+    <Compile Include="HalconDotNet\HTupleElementsImplementation.cs" />
+    <Compile Include="HalconDotNet\HTupleElementsInt32.cs" />
+    <Compile Include="HalconDotNet\HTupleElementsInt64.cs" />
+    <Compile Include="HalconDotNet\HTupleElementsMixed.cs" />
+    <Compile Include="HalconDotNet\HTupleElementsString.cs" />
+    <Compile Include="HalconDotNet\HTupleHandle.cs" />
+    <Compile Include="HalconDotNet\HTupleImplementation.cs" />
+    <Compile Include="HalconDotNet\HTupleInt32.cs" />
+    <Compile Include="HalconDotNet\HTupleInt64.cs" />
+    <Compile Include="HalconDotNet\HTupleMixed.cs" />
+    <Compile Include="HalconDotNet\HTupleString.cs" />
+    <Compile Include="HalconDotNet\HTupleType.cs" />
+    <Compile Include="HalconDotNet\HTupleVector.cs" />
+    <Compile Include="HalconDotNet\HTupleVoid.cs" />
+    <Compile Include="HalconDotNet\HVariationModel.cs" />
+    <Compile Include="HalconDotNet\HVector.cs" />
+    <Compile Include="HalconDotNet\HVectorAccessException.cs" />
+    <Compile Include="HalconDotNet\HWButtonEventHandler.cs" />
+    <Compile Include="HalconDotNet\HWindow.cs" />
+    <Compile Include="HalconDotNet\HWindowControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HalconDotNet\HWindowControlDesigner.cs" />
+    <Compile Include="HalconDotNet\HWindowControlWPF.cs" />
+    <Compile Include="HalconDotNet\HWindowWPF.cs" />
+    <Compile Include="HalconDotNet\HWInitEventHandler.cs" />
+    <Compile Include="HalconDotNet\HWMouseEventHandler.cs" />
+    <Compile Include="HalconDotNet\HXLD.cs" />
+    <Compile Include="HalconDotNet\HXLDCont.cs" />
+    <Compile Include="HalconDotNet\HXLDDistTrans.cs" />
+    <Compile Include="HalconDotNet\HXLDExtPara.cs" />
+    <Compile Include="HalconDotNet\HXLDModPara.cs" />
+    <Compile Include="HalconDotNet\HXLDPara.cs" />
+    <Compile Include="HalconDotNet\HXLDPoly.cs" />
+    <Compile Include="HalconDotNet\MK.cs" />
+    <Compile Include="HalconDotNet\WM.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="HalconDotNet\HalconWindowLayoutDialog.resources" />
+    <EmbeddedResource Include="HalconDotNet\halcon_icon_48.png" />
+    <EmbeddedResource Include="HalconDotNet\HSmartWindowControl.resources" />
+    <EmbeddedResource Include="HalconDotNet\HSmartWindowControlWPF.HWindowControlWPF.icon.bmp" />
+    <EmbeddedResource Include="HalconDotNet\HSmartWindowControlWPF.HWindowControlWPFxl.icon.bmp" />
+    <EmbeddedResource Include="HalconDotNet\HWindowControl.resources" />
+    <EmbeddedResource Include="HalconDotNet\HWindowControlWPF.icon.bmp" />
+    <EmbeddedResource Include="HalconDotNet\HWindowControlWPFxl.icon.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{B6F5645F-AD33-417C-9507-34823B720E75}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>SZXCArimEngineh</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+    <OutputPath>..\..\XC_exe\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>SZXCArimEngineh</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="HalconDotNet\DevClearWindowDelegate.cs" />
+    <Compile Include="HalconDotNet\DevCloseWindowDelegate.cs" />
+    <Compile Include="HalconDotNet\DevDisplayDelegate.cs" />
+    <Compile Include="HalconDotNet\DevDispTextDelegate.cs" />
+    <Compile Include="HalconDotNet\DevGetWindowDelegate.cs" />
+    <Compile Include="HalconDotNet\DevOpenWindowDelegate.cs" />
+    <Compile Include="HalconDotNet\DevSetColorDelegate.cs" />
+    <Compile Include="HalconDotNet\DevSetColoredDelegate.cs" />
+    <Compile Include="HalconDotNet\DevSetContourStyleDelegate.cs" />
+    <Compile Include="HalconDotNet\DevSetDrawDelegate.cs" />
+    <Compile Include="HalconDotNet\DevSetLineWidthDelegate.cs" />
+    <Compile Include="HalconDotNet\DevSetLutDelegate.cs" />
+    <Compile Include="HalconDotNet\DevSetPaintDelegate.cs" />
+    <Compile Include="HalconDotNet\DevSetPartDelegate.cs" />
+    <Compile Include="HalconDotNet\DevSetShapeDelegate.cs" />
+    <Compile Include="HalconDotNet\DevSetWindowDelegate.cs" />
+    <Compile Include="HalconDotNet\DevSetWindowExtentsDelegate.cs" />
+    <Compile Include="HalconDotNet\EngineAPI.cs" />
+    <Compile Include="HalconDotNet\HDevEngine.cs" />
+    <Compile Include="HalconDotNet\HDevEngineException.cs" />
+    <Compile Include="HalconDotNet\HDevOperatorWrapper.cs" />
+    <Compile Include="HalconDotNet\HDevOpFixedWindowImpl.cs" />
+    <Compile Include="HalconDotNet\HDevOpMultiWindowImpl.cs" />
+    <Compile Include="HalconDotNet\HDevProcedure.cs" />
+    <Compile Include="HalconDotNet\HDevProcedureCall.cs" />
+    <Compile Include="HalconDotNet\HDevProgram.cs" />
+    <Compile Include="HalconDotNet\HDevProgramCall.cs" />
+    <Compile Include="HalconDotNet\IHDevOperators.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SZXCHalcon\SZXCArimh.csproj">
+      <Project>{59296282-8268-412b-89d3-1a9b10053dd9}</Project>
+      <Name>SZXCArimh</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,144 @@
+﻿已启动重新生成…
+1>------ 已启动全部重新生成: 项目: Helper, 配置: Debug Any CPU ------
+2>------ 已启动全部重新生成: 项目: ViewROIOpenCV, 配置: Debug Any CPU ------
+3>------ 已启动全部重新生成: 项目: StartWindowForm, 配置: Debug Any CPU ------
+2>  ViewROIOpenCV -> E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XC_exe\ViewROIOpenCV.dll
+1>D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.CSharp.CurrentVersion.targets(130,9): warning MSB3884: 无法找到规则集文件“MinimumRecommendedRules.ruleset”。
+1>  Helper -> E:\Programs\bin\Debug\Helper.dll
+4>------ 已启动全部重新生成: 项目: CPublicDefine, 配置: Debug Any CPU ------
+3>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\StartWindowForm\frmWaitingBox.cs(62,17,62,28): warning CS0219: 变量“maxWaitTime”已被赋值，但从未使用过它的值
+3>  StartWindowForm -> E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\StartWindowForm\bin\Debug\StartWindowForm.dll
+4>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\CPublicDefine\Solution_Struct_Info.cs(97,25,97,35): warning CS0169: 从不使用字段“ROI2.ImageHight”
+4>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\CPublicDefine\Solution_Struct_Info.cs(95,25,95,35): warning CS0169: 从不使用字段“ROI2.ImageWidth”
+4>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\CPublicDefine\Model\ROIRectangle1.cs(52,24,52,29): warning CS0414: 字段“ROIRectangle1.color”已被赋值，但从未使用过它的值
+4>  CPublicDefine -> E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XC_exe\CPublicDefine.dll
+5>------ 已启动全部重新生成: 项目: ShowControl, 配置: Debug Any CPU ------
+5>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\HalconControl\HWindow_fit.cs(2908,7,2908,12): warning CS0162: 检测到无法访问的代码
+5>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\HalconControl\HWindow_fit.cs(42,36,42,49): warning CS0414: 字段“HWindow_Fit.b_rightButton”已被赋值，但从未使用过它的值
+5>  ShowControl -> E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XC_exe\ShowControl.dll
+6>------ 已启动全部重新生成: 项目: Communication, 配置: Debug Any CPU ------
+6>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\CommControlLibrary\Communication_Base_Control.cs(15,23,15,29): warning CS0169: 从不使用字段“Communication_Base_Control.enable”
+6>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\CommControlLibrary\Communication_Base_Control.cs(20,24,20,31): warning CS0169: 从不使用字段“Communication_Base_Control.remarks”
+6>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\CommControlLibrary\Communication_Base_Control.cs(25,24,25,27): warning CS0169: 从不使用字段“Communication_Base_Control.key”
+6>  Communication -> E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XC_exe\Communication.dll
+7>------ 已启动全部重新生成: 项目: OpenCVCore, 配置: Debug Any CPU ------
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\DataIn.cs(129,30,129,32): warning CS0168: 声明了变量“ex”，但从未使用过
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\Configuration.cs(333,20,333,24): warning CS0168: 声明了变量“axis”，但从未使用过
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\VBA_Function.cs(902,30,902,31): warning CS0219: 变量“c”已被赋值，但从未使用过它的值
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(211,25,211,32): warning CS0649: 从未对字段“CommunicationItem.JobName”赋值，字段将一直保持其默认值 null
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\Configuration.cs(27,22,27,25): warning CS0649: 从未对字段“Configuration.ini”赋值，字段将一直保持其默认值 null
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(183,25,183,38): warning CS0649: 从未对字段“AcquistionDevice.InterfaceType”赋值，字段将一直保持其默认值 null
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(223,25,223,28): warning CS0649: 从未对字段“MatchResult.Col”赋值，字段将一直保持其默认值 0
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(164,24,164,32): warning CS0649: 从未对字段“Line.EndPoint”赋值，字段将一直保持其默认值 null
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(234,25,234,28): warning CS0649: 从未对字段“BlobResult.Row”赋值，字段将一直保持其默认值 0
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(185,25,185,33): warning CS0649: 从未对字段“AcquistionDevice.Exposure”赋值，字段将一直保持其默认值 0
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(251,22,251,29): warning CS0649: 从未对字段“PreProcessing.MaxArea”赋值，字段将一直保持其默认值 0
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\BitmapImgProcess.cs(18,14,18,22): warning CS0649: 从未对字段“BitmapImgProcess.m_nHeigh”赋值，字段将一直保持其默认值 0
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\PluginBase\OpenCVModuleFormBase.cs(22,35,22,50): warning CS0067: 从不使用事件“OpenCVModuleFormBase.RefushOutputVar”
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(67,25,67,32): warning CS0649: 从未对字段“Label.UpLimit”赋值，字段将一直保持其默认值 null
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(264,25,264,26): warning CS0649: 从未对字段“PosXYU.Y”赋值，字段将一直保持其默认值 0
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(182,25,182,34): warning CS0649: 从未对字段“AcquistionDevice.DeviceStr”赋值，字段将一直保持其默认值 null
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(186,22,186,33): warning CS0649: 从未对字段“AcquistionDevice.MinExposure”赋值，字段将一直保持其默认值 0
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(222,25,222,28): warning CS0649: 从未对字段“MatchResult.Row”赋值，字段将一直保持其默认值 0
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(254,22,254,28): warning CS0649: 从未对字段“PreProcessing.Height”赋值，字段将一直保持其默认值 0
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(250,22,250,29): warning CS0649: 从未对字段“PreProcessing.MinArea”赋值，字段将一直保持其默认值 0
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\PluginBase\OpenCVModuleFormBase.cs(44,34,44,53): warning CS0169: 从不使用字段“OpenCVModuleFormBase.m_ModuleObjBaseBack”
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(274,25,274,35): warning CS0649: 从未对字段“SelectItem.SelectType”赋值，字段将一直保持其默认值 null
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(60,25,60,35): warning CS0649: 从未对字段“Label.OutputItem”赋值，字段将一直保持其默认值 null
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(248,25,248,36): warning CS0649: 从未对字段“PreProcessing.ElementType”赋值，字段将一直保持其默认值 null
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(253,22,253,27): warning CS0649: 从未对字段“PreProcessing.Width”赋值，字段将一直保持其默认值 0
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(163,24,163,34): warning CS0649: 从未对字段“Line.StartPoint”赋值，字段将一直保持其默认值 null
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\PluginBase\OpenCVModuleFormBase.cs(19,19,19,28): warning CS0169: 从不使用字段“OpenCVModuleFormBase.varHelper”
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(62,25,62,28): warning CS0649: 从未对字段“Label.Row”赋值，字段将一直保持其默认值 null
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\BitmapImgProcess.cs(17,14,17,22): warning CS0649: 从未对字段“BitmapImgProcess.m_nWidth”赋值，字段将一直保持其默认值 0
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(212,25,212,35): warning CS0649: 从未对字段“CommunicationItem.OutputItem”赋值，字段将一直保持其默认值 null
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(196,25,196,37): warning CS0649: 从未对字段“RunResult.ResultString”赋值，字段将一直保持其默认值 null
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(236,25,236,29): warning CS0649: 从未对字段“BlobResult.Area”赋值，字段将一直保持其默认值 0
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(247,25,247,42): warning CS0649: 从未对字段“PreProcessing.PreProcessingType”赋值，字段将一直保持其默认值 null
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(200,25,200,28): warning CS0649: 从未对字段“RunResult.Col”赋值，字段将一直保持其默认值 0
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(58,25,58,34): warning CS0649: 从未对字段“Label.ValueType”赋值，字段将一直保持其默认值 null
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(237,25,237,43): warning CS0649: 从未对字段“BlobResult.CircumcircleRadius”赋值，字段将一直保持其默认值 0
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Camera\AcqDeviceBase.cs(19,24,19,30): warning CS0169: 从不使用字段“AcqDeviceBase._Image”
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\BitmapImgProcess.cs(19,14,19,24): warning CS0649: 从未对字段“BitmapImgProcess.m_bIsColor”赋值，字段将一直保持其默认值 false
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(61,25,61,34): warning CS0649: 从未对字段“Label.PreAddStr”赋值，字段将一直保持其默认值 null
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(187,22,187,33): warning CS0649: 从未对字段“AcquistionDevice.MaxExposure”赋值，字段将一直保持其默认值 0
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(249,22,249,33): warning CS0649: 从未对字段“PreProcessing.ElementSize”赋值，字段将一直保持其默认值 0
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(265,25,265,26): warning CS0649: 从未对字段“PosXYU.U”赋值，字段将一直保持其默认值 0
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(275,25,275,36): warning CS0649: 从未对字段“SelectItem.AreaUpLimit”赋值，字段将一直保持其默认值 0
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(64,25,64,32): warning CS0649: 从未对字段“Label.Incolor”赋值，字段将一直保持其默认值 null
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(68,25,68,33): warning CS0649: 从未对字段“Label.OutColor”赋值，字段将一直保持其默认值 null
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(235,25,235,28): warning CS0649: 从未对字段“BlobResult.Col”赋值，字段将一直保持其默认值 0
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(252,23,252,29): warning CS0649: 从未对字段“PreProcessing.Enable”赋值，字段将一直保持其默认值 false
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(66,25,66,34): warning CS0649: 从未对字段“Label.DownLimit”赋值，字段将一直保持其默认值 null
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\Form_MotionAxisSetting.cs(64,14,64,27): warning CS0169: 从不使用字段“Form_MotionAxisSetting.m_IsRefreshed”
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(225,25,225,30): warning CS0649: 从未对字段“MatchResult.Socre”赋值，字段将一直保持其默认值 0
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(213,25,213,34): warning CS0649: 从未对字段“CommunicationItem.PrefixStr”赋值，字段将一直保持其默认值 null
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(263,25,263,26): warning CS0649: 从未对字段“PosXYU.X”赋值，字段将一直保持其默认值 0
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(224,25,224,30): warning CS0649: 从未对字段“MatchResult.Angle”赋值，字段将一直保持其默认值 0
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(201,25,201,30): warning CS0649: 从未对字段“RunResult.Angle”赋值，字段将一直保持其默认值 0
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(210,25,210,40): warning CS0649: 从未对字段“CommunicationItem.ReceivedCommand”赋值，字段将一直保持其默认值 null
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(199,25,199,28): warning CS0649: 从未对字段“RunResult.Row”赋值，字段将一直保持其默认值 0
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(184,25,184,45): warning CS0649: 从未对字段“AcquistionDevice.DeviceDescriptionStr”赋值，字段将一直保持其默认值 null
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(276,25,276,38): warning CS0649: 从未对字段“SelectItem.AreaDownLimit”赋值，字段将一直保持其默认值 0
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(65,25,65,29): warning CS0649: 从未对字段“Label.Size”赋值，字段将一直保持其默认值 null
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(63,25,63,28): warning CS0649: 从未对字段“Label.Col”赋值，字段将一直保持其默认值 null
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(197,25,197,36): warning CS0649: 从未对字段“RunResult.BarcodeType”赋值，字段将一直保持其默认值 null
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\Motion\DataStrct.cs(59,25,59,36): warning CS0649: 从未对字段“Label.ExpectValue”赋值，字段将一直保持其默认值 null
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\OpenCVCoreModule.cs(271,25,271,45): warning CS0414: 字段“F_CELL_DATA._bUserDefineVariable”已被赋值，但从未使用过它的值
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\PluginBase\OpenCVModuleFormBase.cs(21,24,21,41): warning CS0414: 字段“OpenCVModuleFormBase.m_OldOutputVarStr”已被赋值，但从未使用过它的值
+7>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\Core\PluginBase\OpenCVModuleFormBase.cs(20,24,20,40): warning CS0414: 字段“OpenCVModuleFormBase.m_OldInputVarStr”已被赋值，但从未使用过它的值
+7>  OpenCVCore -> E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XC_exe\Core.dll
+8>------ 已启动全部重新生成: 项目: OpenCVModuleUC, 配置: Debug Any CPU ------
+9>------ 已启动全部重新生成: 项目: HMeasurea, 配置: Debug Any CPU ------
+10>------ 已启动全部重新生成: 项目: OpenCVParentForm, 配置: Debug Any CPU ------
+10>  OpenCVParentForm -> E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\OpenCVParentForm\bin\Debug\OpenCVParentForm.dll
+9>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\HMeasure\HMeasureSet.cs(2585,22,2585,32): warning CS0114: “ROILine.CreateLine(double, double, double, double)”隐藏继承的成员“ROI2.CreateLine(double, double, double, double)”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+9>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\HMeasure\HMeasureSet.cs(2603,22,2603,31): warning CS0114: “ROILine.CreateROI(double, double)”隐藏继承的成员“ROI2.CreateROI(double, double)”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+9>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\HMeasure\HMeasureSet.cs(2619,22,2619,26): warning CS0114: “ROILine.Draw(HWindow)”隐藏继承的成员“ROI2.Draw(HWindow)”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+9>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\HMeasure\HMeasureSet.cs(2634,24,2634,43): warning CS0114: “ROILine.DistToClosestHandle(double, double)”隐藏继承的成员“ROI2.DistToClosestHandle(double, double)”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+9>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\HMeasure\HMeasureSet.cs(2659,22,2659,35): warning CS0114: “ROILine.DisplayActive(HWindow)”隐藏继承的成员“ROI2.DisplayActive(HWindow)”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+9>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\HMeasure\HMeasureSet.cs(2677,25,2677,34): warning CS0114: “ROILine.GetRegion()”隐藏继承的成员“ROI2.GetRegion()”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+9>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\HMeasure\HMeasureSet.cs(2683,26,2683,32): warning CS0114: “ROILine.GetXLD()”隐藏继承的成员“ROI2.GetXLD()”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+9>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\HMeasure\HMeasureSet.cs(2695,24,2695,49): warning CS0114: “ROILine.GetDistanceFromStartPoint(double, double)”隐藏继承的成员“ROI2.GetDistanceFromStartPoint(double, double)”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+9>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\HMeasure\HMeasureSet.cs(2714,22,2714,34): warning CS0114: “ROILine.moveByHandle(double, double)”隐藏继承的成员“ROI2.moveByHandle(double, double)”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+9>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\HMeasure\HMeasureSet.cs(3090,22,3090,34): warning CS0114: “ROICircle.CreateCircle(double, double, double)”隐藏继承的成员“ROI2.CreateCircle(double, double, double)”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+9>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\HMeasure\HMeasureSet.cs(3103,22,3103,31): warning CS0114: “ROICircle.CreateROI(double, double)”隐藏继承的成员“ROI2.CreateROI(double, double)”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+9>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\HMeasure\HMeasureSet.cs(3115,22,3115,26): warning CS0114: “ROICircle.Draw(HWindow)”隐藏继承的成员“ROI2.Draw(HWindow)”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+9>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\HMeasure\HMeasureSet.cs(3125,24,3125,43): warning CS0114: “ROICircle.DistToClosestHandle(double, double)”隐藏继承的成员“ROI2.DistToClosestHandle(double, double)”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+9>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\HMeasure\HMeasureSet.cs(3146,22,3146,35): warning CS0114: “ROICircle.DisplayActive(HWindow)”隐藏继承的成员“ROI2.DisplayActive(HWindow)”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+9>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\HMeasure\HMeasureSet.cs(3160,25,3160,34): warning CS0114: “ROICircle.GetRegion()”隐藏继承的成员“ROI2.GetRegion()”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+9>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\HMeasure\HMeasureSet.cs(3166,26,3166,32): warning CS0114: “ROICircle.GetXLD()”隐藏继承的成员“ROI2.GetXLD()”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+9>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\HMeasure\HMeasureSet.cs(3172,24,3172,49): warning CS0114: “ROICircle.GetDistanceFromStartPoint(double, double)”隐藏继承的成员“ROI2.GetDistanceFromStartPoint(double, double)”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+9>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\HMeasure\HMeasureSet.cs(3188,24,3188,36): warning CS0114: “ROICircle.GetModelData()”隐藏继承的成员“ROI2.GetModelData()”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+9>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\HMeasure\HMeasureSet.cs(3197,21,3197,33): warning CS0114: “ROICircle.moveByHandle(double, double)”隐藏继承的成员“ROI2.moveByHandle(double, double)”。若要使当前成员重写该实现，请添加关键字 override。否则，添加关键字 new。
+9>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\HMeasure\HMeasureSet.cs(2865,30,2865,32): warning CS0168: 声明了变量“ex”，但从未使用过
+9>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\HMeasure\HMeasureSet.cs(2893,30,2893,32): warning CS0168: 声明了变量“ex”，但从未使用过
+9>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\HMeasure\HMeasureSet.cs(2969,30,2969,32): warning CS0168: 声明了变量“ex”，但从未使用过
+9>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\HMeasure\HMeasureSet.cs(666,30,666,32): warning CS0168: 声明了变量“ex”，但从未使用过
+9>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\HMeasure\HMeasureSet.cs(2059,25,2059,35): warning CS0169: 从不使用字段“ROI2.ImageWidth”
+9>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\HMeasure\HMeasureSet.cs(2061,25,2061,35): warning CS0169: 从不使用字段“ROI2.ImageHight”
+9>  HMeasurea -> E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XC_exe\HMeasurea.dll
+11>------ 已启动全部重新生成: 项目: MyFormDesinger, 配置: Debug Any CPU ------
+8>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\OpenCVModuleUC\CanvasView.cs(39,59,39,61): warning CS0168: 声明了变量“ex”，但从未使用过
+8>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\OpenCVModuleUC\FlowUC.cs(81,29,81,45): warning CS0169: 从不使用字段“FlowUC.ModuleParam_Info”
+8>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\OpenCVModuleUC\FlowUC.cs(71,28,71,38): warning CS0649: 从未对字段“FlowUC.set_GCusor”赋值，字段将一直保持其默认值 null
+8>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\OpenCVModuleUC\Form_Flow.cs(27,29,27,42): warning CS0649: 从未对字段“Form_Flow.m_ProjectInfo”赋值，字段将一直保持其默认值 null
+8>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\OpenCVModuleUC\FlowUC.cs(53,24,53,36): warning CS0169: 从不使用字段“FlowUC.m_DragObject”
+8>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\OpenCVModuleUC\FlowUC.cs(57,38,57,40): warning CS0169: 从不使用字段“FlowUC.pp”
+8>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\OpenCVModuleUC\FlowUC.cs(92,16,92,19): warning CS0169: 从不使用字段“FlowUC.str”
+8>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\OpenCVModuleUC\FlowUC.cs(49,22,49,33): warning CS0414: 字段“FlowUC.m_MouseDown”已被赋值，但从未使用过它的值
+8>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\OpenCVModuleUC\FlowUC.cs(44,21,44,30): warning CS0414: 字段“FlowUC.whileNum3”已被赋值，但从未使用过它的值
+8>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\OpenCVModuleUC\FlowUC.cs(36,21,36,29): warning CS0414: 字段“FlowUC.whileNum”已被赋值，但从未使用过它的值
+8>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\OpenCVModuleUC\FlowUC.cs(40,21,40,30): warning CS0414: 字段“FlowUC.whileNum2”已被赋值，但从未使用过它的值
+8>  OpenCVModuleUC -> E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XC_exe\OpenCVModuleUC.dll
+12>------ 已启动全部重新生成: 项目: OpencvRegion, 配置: Debug Any CPU ------
+11>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\MyFormDesinger\MyFormDesinger\service\ControlFactory.cs(59,29,59,70): warning CS0618: “Assembly.LoadWithPartialName(string)”已过时:“This method has been deprecated. Please use Assembly.Load() instead. http://go.microsoft.com/fwlink/?linkid=14202”
+11>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\MyFormDesinger\MyFormDesinger\ui\MyFormDesigner.cs(189,17,189,18): warning CS0219: 变量“i”已被赋值，但从未使用过它的值
+11>  MyFormDesinger -> E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XC_exe\FormDesign\Debug\MyFormDesinger.exe
+12>  OpencvRegion -> E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XC_exe\OpencvRegion.dll
+13>------ 已启动全部重新生成: 项目: SZXCVision, 配置: Debug Any CPU ------
+13>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\SZXCVision\XCVisionForm.cs(123,26,123,48): warning CS0169: 从不使用字段“XCVisionForm.NotifyUpdateWaitingBox”
+13>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\SZXCVision\XCVisionForm.cs(109,14,109,31): warning CS0414: 字段“XCVisionForm.m_bRunningClosing”已被赋值，但从未使用过它的值
+13>E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XCOpenCVForm\SZXCVision\XCVisionForm.cs(2715,14,2715,20): warning CS0414: 字段“XCVisionForm.m_Load”已被赋值，但从未使用过它的值
+13>  SZXCVision -> E:\Programs\XCAutomaticCorp\OpenCVSharpTest 20220703\XC_exe\SZXCVision.exe
+========== 全部重新生成: 成功 13 个，失败 0 个，跳过 0 个 ==========

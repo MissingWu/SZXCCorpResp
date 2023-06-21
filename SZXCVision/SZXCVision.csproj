@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4A928133-DEDC-4028-920E-8B8D01CCAD70}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SZXCVision</RootNamespace>
+    <AssemblyName>SZXCVision</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\XC_exe\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CPublicDefine, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CPublicDefine\obj\Debug\CPublicDefine.dll</HintPath>
+    </Reference>
+    <Reference Include="CSkin">
+      <HintPath>..\..\..\OpenCVSharpTest 20220627\XC_exe\CSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetSpeech, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\SpeechDemo\SpeechDemo\bin\Debug\DotNetSpeech.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.XLS">
+      <HintPath>C:\Program Files (x86)\e-iceblue\Spire.Xls-Fe\Bin\NET4.6\Spire.XLS.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking">
+      <HintPath>..\..\..\OpenCVSharpTest 20220627\XC_exe\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MP4Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MP4Form.Designer.cs">
+      <DependentUpon>MP4Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSpeech.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSpeech.designer.cs">
+      <DependentUpon>FrmSpeech.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IEventSZXC.cs" />
+    <Compile Include="ProjListRunForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjListRunForm.Designer.cs">
+      <DependentUpon>ProjListRunForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VertifiedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VertifiedForm.designer.cs">
+      <DependentUpon>VertifiedForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VertifyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VertifyForm.Designer.cs">
+      <DependentUpon>VertifyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XCVisionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XCVisionForm.Designer.cs">
+      <DependentUpon>XCVisionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmSpeech.resx">
+      <DependentUpon>FrmSpeech.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MP4Form.resx">
+      <DependentUpon>MP4Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjListRunForm.resx">
+      <DependentUpon>ProjListRunForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VertifiedForm.resx">
+      <DependentUpon>VertifiedForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VertifyForm.resx">
+      <DependentUpon>VertifyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XCVisionForm.resx">
+      <DependentUpon>XCVisionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\CommControlLibrary\Communication.csproj">
+      <Project>{84A7CC18-D222-4AE9-BBB4-7915384E6BAE}</Project>
+      <Name>Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\OpenCVCore.csproj">
+      <Project>{ad44ffdd-8f2f-4235-b838-16aa5e607f06}</Project>
+      <Name>OpenCVCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\HalconControl\ShowControl.csproj">
+      <Project>{4F95D906-4CE8-42EC-AF23-55F5A12897F1}</Project>
+      <Name>ShowControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\MyFormDesinger\MyFormDesinger\MyFormDesinger.csproj">
+      <Project>{03df5694-bc60-4030-b66e-0304f0a63059}</Project>
+      <Name>MyFormDesinger</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\OpenCVModuleUC\OpenCVModuleUC.csproj">
+      <Project>{7a9d6b25-1410-4e83-ad9f-5d6d4e1c8190}</Project>
+      <Name>OpenCVModuleUC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\OpenCVParentForm\OpenCVParentForm.csproj">
+      <Project>{2af58190-a71e-4f19-8634-033b9235e845}</Project>
+      <Name>OpenCVParentForm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\OpencvRegion\OpencvRegion.csproj">
+      <Project>{f11aee24-fa5b-4980-9c5d-7d08eb9bdcb3}</Project>
+      <Name>OpencvRegion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\StartWindowForm\StartWindowForm.csproj">
+      <Project>{53271eea-f90b-4078-b7ad-e81f936bb9c5}</Project>
+      <Name>StartWindowForm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ViewROIOpenCV\ViewROIOpenCV.csproj">
+      <Project>{50befa84-ec67-4be9-bbe5-d9492b08bf73}</Project>
+      <Name>ViewROIOpenCV</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{d1df77b8-c4b7-4e08-a7ea-ac1992980a53}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SZXCHalcon\SZXCArimh.csproj">
+      <Project>{59296282-8268-412b-89d3-1a9b10053dd9}</Project>
+      <Name>SZXCArimh</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pointer.ico" />
+    <Content Include="启动图.ico" />
+    <None Include="Resources\启动界面适中.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
